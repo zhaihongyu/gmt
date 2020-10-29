@@ -269,6 +269,12 @@ one or more output files (or stdout) and no plot is produced.</p>
 </div>
 <div class="section" id="required-arguments">
 <h2>Required Arguments<a class="headerlink" href="#required-arguments" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt><em>table</em></dt><dd><p>One or more ASCII (or binary, see <strong>-bi</strong>[<em>ncols</em>][<em>type</em>]) data
+table file(s) holding a number of data columns. If no tables are given
+then we read from standard input.  </p>
+</dd>
+</dl>
 <dl class="simple" id="j">
 <dt><strong>-J</strong><em>parameters</em> <a class="reference internal" href="gmt.html#j-full"><span class="std std-ref">(more …)</span></a></dt><dd><p>Select map projection.  </p>
 </dd>
@@ -281,12 +287,6 @@ one or more output files (or stdout) and no plot is produced.</p>
 </div>
 <div class="section" id="optional-arguments">
 <h2>Optional Arguments<a class="headerlink" href="#optional-arguments" title="Permalink to this headline">¶</a></h2>
-<dl class="simple">
-<dt><em>table</em></dt><dd><p>One or more ASCII (or binary, see <strong>-bi</strong>[<em>ncols</em>][<em>type</em>]) data
-table file(s) holding a number of data columns. If no tables are given
-then we read from standard input.  </p>
-</dd>
-</dl>
 <dl class="simple" id="a">
 <dt><strong>-A</strong>[<strong>n</strong>|<em>contours</em>][<em>labelinfo</em>]</dt><dd><p><em>contours</em> is annotation interval in data units; it is ignored if
 contour levels are given in a file via <strong>-C</strong>. [Default is no annotations]. Prepend
@@ -717,7 +717,7 @@ to supply a legend size (i.e., length of a line symbol) via the <strong>+S</stro
         
         &copy; Copyright 2020, The GMT Team.
       <span class="lastupdated">
-        Last updated on Sep 20, 2020.
+        Last updated on Oct 29, 2020.
       </span>
 
     </p>

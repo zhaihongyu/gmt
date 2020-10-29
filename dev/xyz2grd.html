@@ -259,6 +259,12 @@ see <strong>surface</strong>, <strong>greenspline</strong>, <strong>nearneighbor
 </div>
 <div class="section" id="required-arguments">
 <h2>Required Arguments<a class="headerlink" href="#required-arguments" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt><em>table</em></dt><dd><p>One or more ASCII [or binary, see <strong>-bi</strong>]
+files holding z or (x,y,z) values. The xyz triplets do not have to
+be sorted. One-column z tables must be sorted and the <strong>-Z</strong> must be set.</p>
+</dd>
+</dl>
 <dl class="simple" id="g">
 <dt><strong>-G</strong><em>grdfile</em></dt><dd><p><em>grdfile</em> is the name of the binary output grid file. (See GRID FILE
 FORMAT below.)</p>
@@ -294,12 +300,6 @@ already been initialized; use <strong>-I</strong> (and <strong>-r</strong>) to o
 </div>
 <div class="section" id="optional-arguments">
 <h2>Optional Arguments<a class="headerlink" href="#optional-arguments" title="Permalink to this headline">¶</a></h2>
-<dl class="simple">
-<dt><em>table</em></dt><dd><p>One or more ASCII [or binary, see <strong>-bi</strong>]
-files holding z or (x,y,z) values. The xyz triplets do not have to
-be sorted. One-column z tables must be sorted and the <strong>-Z</strong> must be set.</p>
-</dd>
-</dl>
 <dl class="simple" id="a">
 <dt><strong>-A</strong>[<strong>d</strong>|<strong>f</strong>|<strong>l</strong>|<strong>m</strong>|<strong>n</strong>|<strong>r</strong>|<strong>S</strong>|<strong>s</strong>|<strong>u</strong>|<strong>z</strong>]</dt><dd><p>By default we will calculate mean values if multiple entries fall on
 the same node. Use <strong>-A</strong> to change this behavior, except it is
@@ -570,7 +570,7 @@ that is assigned to each node in a cartesian data set, use</p>
         
         &copy; Copyright 2020, The GMT Team.
       <span class="lastupdated">
-        Last updated on Sep 20, 2020.
+        Last updated on Oct 29, 2020.
       </span>
 
     </p>

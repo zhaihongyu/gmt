@@ -243,7 +243,7 @@
 [ <strong>-x</strong>[[-]<em>n</em>] ]
 [ <strong>--PAR</strong>=<em>value</em> ]
 <em>operand</em> [ <em>operand</em> ] <strong>OPERATOR</strong> [ <em>operand</em> ]
-<strong>OPERATOR</strong> … <strong>=</strong> <em>outgrdfile</em></p>
+<strong>OPERATOR</strong> … <strong>=</strong> <em>outgrid</em></p>
 <p><strong>Note:</strong> No space is allowed between the option flag and the associated arguments.</p>
 </div>
 <div class="section" id="description">
@@ -256,7 +256,7 @@ final result is written to an output grid file. Grid operations are
 element-by-element, not matrix manipulations. Some operators only
 require one operand (see below). If no grid files are used in the
 expression then options <strong>-R</strong>, <strong>-I</strong> must be set (and optionally
-<strong>-r</strong><a class="reference internal" href="gmt.html#nodereg-full"><span class="std std-ref">reg</span></a>). The expression <strong>=</strong> <em>outgrdfile</em> can occur as many times as
+<strong>-r</strong><a class="reference internal" href="gmt.html#nodereg-full"><span class="std std-ref">reg</span></a>). The expression <strong>=</strong> <em>outgrid</em> can occur as many times as
 the depth of the stack allows in order to save intermediate results.
 Complicated or frequently occurring expressions may be coded as a macro
 for future use or stored and recalled via named memory locations.</p>
@@ -268,7 +268,7 @@ for future use or stored and recalled via named memory locations.</p>
 If not a file, it is interpreted as a numerical constant or a
 special symbol (see below).</p>
 </dd>
-<dt><em>outgrdfile</em></dt><dd><p>The name of a 2-D grid file that will hold the final result. (See
+<dt><em>outgrid</em></dt><dd><p>The name of a 2-D grid file that will hold the final result. (See
 GRID FILE FORMATS below).</p>
 </dd>
 </dl>
@@ -1660,7 +1660,7 @@ Publishing Corp.</p>
         
         &copy; Copyright 2020, The GMT Team.
       <span class="lastupdated">
-        Last updated on Sep 20, 2020.
+        Last updated on Oct 29, 2020.
       </span>
 
     </p>

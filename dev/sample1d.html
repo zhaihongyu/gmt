@@ -260,10 +260,6 @@ is not supported.</p>
 </div>
 <div class="section" id="required-arguments">
 <h2>Required Arguments<a class="headerlink" href="#required-arguments" title="Permalink to this headline">¶</a></h2>
-<p>None.</p>
-</div>
-<div class="section" id="optional-arguments">
-<h2>Optional Arguments<a class="headerlink" href="#optional-arguments" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
 <dt><em>table</em></dt><dd><p>This is one or more ASCII [of binary, see
 <strong>-bi</strong>] files with one column containing the
@@ -272,6 +268,9 @@ and the remaining columns holding other data values. If no file is
 provided, <strong>sample1d</strong> reads from standard input.</p>
 </dd>
 </dl>
+</div>
+<div class="section" id="optional-arguments">
+<h2>Optional Arguments<a class="headerlink" href="#optional-arguments" title="Permalink to this headline">¶</a></h2>
 <dl class="simple" id="a">
 <dt><strong>-A</strong><strong>f</strong>|<strong>p</strong>|<strong>m</strong>|<strong>r</strong>|<strong>R</strong>[<strong>+d</strong>][<strong>+l</strong>]</dt><dd><p>For track resampling (if <strong>-T</strong>…<em>unit</em> is set) we can select how
 this is to be performed. Append <strong>f</strong> to keep original points, but
@@ -288,7 +287,7 @@ no change in the time column, and
 </dd>
 </dl>
 <dl class="simple" id="f">
-<dt><strong>-Fl</strong>|<strong>a</strong>|<strong>c</strong>|<strong>n</strong><strong>s</strong><em>p</em>[<strong>+d1</strong>|<strong>2</strong>]</dt><dd><p>Choose from <strong>l</strong> (Linear), <strong>a</strong> (Akima spline), <strong>c</strong> (natural
+<dt><strong>-Fl</strong>|<strong>a</strong>|<strong>c</strong>|<strong>n</strong>|<strong>s</strong><em>p</em>[<strong>+d1</strong>|<strong>2</strong>]</dt><dd><p>Choose from <strong>l</strong> (Linear), <strong>a</strong> (Akima spline), <strong>c</strong> (natural
 cubic spline), <strong>n</strong> (no interpolation: nearest point), or <strong>s</strong>
 (smoothing cubic spline; append fit parameter <em>p</em>) [Default
 is <strong>-Fa</strong>]. You may change the default interpolant; see
@@ -596,7 +595,7 @@ included, use</p>
         
         &copy; Copyright 2020, The GMT Team.
       <span class="lastupdated">
-        Last updated on Sep 20, 2020.
+        Last updated on Oct 29, 2020.
       </span>
 
     </p>

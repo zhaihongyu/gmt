@@ -251,14 +251,14 @@
 <div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p><strong>grdimage</strong> reads a 2-D grid file and produces a gray-shaded (or
-colored) map by by building a rectangular image and assigning pixels
+colored) map by building a rectangular image and assigning pixels
 a gray-shade (or color) based on the z-value and the CPT file.
 Optionally, illumination may be added by providing a file with
 intensities in the (-1,+1) range or instructions to derive intensities
 from the input data grid. Values outside this range will be
 clipped. Such intensity files can be created from the grid using
 <a class="reference internal" href="grdgradient.html"><span class="doc">grdgradient</span></a> and, optionally, modified by <a class="reference internal" href="grdmath.html"><span class="doc">grdmath</span></a> or
-<a class="reference internal" href="grdhisteq.html"><span class="doc">grdhisteq</span></a>. A third alternative is available when GMT is build
+<a class="reference internal" href="grdhisteq.html"><span class="doc">grdhisteq</span></a>. A third alternative is available when GMT is built
 with GDAL support. Pass <em>image</em> which can be an image file (geo-referenced or not).
 In this case the image can optionally be illuminated with the
 file provided via the <strong>-I</strong> option. Here, if image has no coordinates
@@ -309,7 +309,7 @@ otherwise a plain tiff file is produced. (2) Any vector elements will be lost.</
 </dd>
 </dl>
 <dl class="simple" id="c">
-<dt><strong>-C</strong>[<em>cpt</em>|<em>master</em>[<strong>+h</strong>[<em>hinge</em>]][<strong>+i</strong><em>zinc</em>][<strong>+u</strong>|<strong>U</strong><em>unit</em>] |<em>color1,color2</em>[,<em>color3</em>,…]]</dt><dd><p>Name of the CPT. Alternatively, supply the name of a GMT color master
+<dt><strong>-C</strong>[<em>cpt</em>|<em>master</em>[<strong>+h</strong>[<em>hinge</em>]][<strong>+i</strong><em>zinc</em>][<strong>+u</strong>|<strong>U</strong><em>unit</em>] |<em>color1,color2</em>[,<em>color3</em>,…]]</dt><dd><p>Name of a CPT file. Alternatively, supply the name of a GMT color master
 dynamic CPT [<em>turbo</em>, but we use <em>geo</em> for &#64;earth_relief and <em>srtm</em> for &#64;srtm_relief data] to
 automatically determine a continuous CPT from the grid’s <em>z</em>-range; you may round the range
 to the nearest multiple of <em>zinc</em> by adding <strong>+i</strong><em>zinc</em>. If given a GMT Master soft-hinge CPT
@@ -695,7 +695,7 @@ remotely located Jessica Rabbit</p>
         
         &copy; Copyright 2020, The GMT Team.
       <span class="lastupdated">
-        Last updated on Sep 20, 2020.
+        Last updated on Oct 29, 2020.
       </span>
 
     </p>
